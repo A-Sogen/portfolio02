@@ -26,10 +26,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin: 15px;
+  padding: 15px;
 
   @include tab {
-    margin: 15px 30px;
+    padding: 15px 30px;
   }
 
   &::after {
@@ -68,10 +68,10 @@
 }
 
 .p-hamburgerMenu__list {
-  margin: 20px 15px 0;
+  padding: 30px 15px 0;
 
   @include tab {
-    margin: 20px 25px 0;
+    padding: 30px 25px 0;
   }
 
   &::after {
@@ -86,7 +86,7 @@
 }
 
 .p-hamburgerMenu__item {
-  padding: 10px 0;
+  margin-bottom: 20px;;
   font-size: 16px;
   font-weight: 500;
 
@@ -96,12 +96,12 @@
 }
 
 .p-hamburgerMenu__footer {
-  margin: 0 15px;
+  padding: 0 15px;
   display: flex;
   flex-direction: column;
 
   @include tab {
-    margin: 0 25px;
+    padding: 0 25px;
   }
 }
 
@@ -109,5 +109,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }

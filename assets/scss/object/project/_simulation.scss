@@ -21,7 +21,10 @@
 }
 
 .p-simulation__result {
+  margin: 0 13px;
+
   @include tab {
+    margin: 0;
     display: flex;
     flex-direction: column;
     width: 35%;

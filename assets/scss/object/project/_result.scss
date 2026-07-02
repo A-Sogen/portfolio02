@@ -1,14 +1,9 @@
 @use '../../foundation/mixin' as *;
 
 .p-result__wrap {
-  margin: 0 13px;
   background-color: #f5f3f7;
   border-radius: 15px;
   border: 1px solid #db5e6f;
-
-  @include tab {
-    margin: 0;
-  }
 }
 
 .p-result__title {

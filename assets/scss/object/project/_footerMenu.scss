@@ -7,11 +7,17 @@
   }
 }
 
+.p-footerMenu__heading {
+  @include pc {
+    margin-right: 48px;
+  }
+}
+
 .p-footerMenu__navSp {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
-  margin-bottom: 48px;
+  padding: 40px 0 48px;
 
   @include tab {
     display: none;
@@ -24,29 +30,19 @@
   @include tab {
     display: flex;
     align-items: flex-start;
-    margin: 50px auto;
+    padding: 50px 0;
     gap: 48px;
   }
 
   @include pc {
-    margin-top: 0;
+    padding-top: 0;
   }
 }
 
-.p-footerMenu{
-  margin-top: 40px;
-
-  &:first-child {
-    margin-top: 60px;
-  }
-
-  @include tab {
-    margin: 0;
-
-    &:first-child {
-      margin: 0;
-    }
-  }
+.p-footerMenu__left {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .p-footerMenu__title {
@@ -60,5 +56,5 @@
 }
 
 .p-footerMenu__item {
-  padding-top: 12px;
+  margin-top: 12px;
 }

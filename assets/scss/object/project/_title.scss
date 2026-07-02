@@ -5,9 +5,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 10px 13px;
+  padding-bottom: 13px;
 
   @include tab {
-    margin: 0 32px 32px;
+    padding-bottom: 32px;
   }
 }

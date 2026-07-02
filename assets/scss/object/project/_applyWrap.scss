@@ -1,7 +1,8 @@
 @use '../../foundation/mixin' as *;
 
 .p-applyWrap {
-  margin: 16px 13px 80px;
+  margin: 16px 0 80px;
+  padding: 0 13px;
   display: flex;
   justify-content: center;
   align-items: center;
